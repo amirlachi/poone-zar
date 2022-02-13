@@ -1,0 +1,410 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'IRANSansXV';
+    src: url('IRANSansXV.woff') format('woff-variations'),
+    /* will be the standard and works in Safari now */
+    url('IRANSansXV.woff') format('woff');
+    /* for the other supporting browsers */
+    font-weight: 100 900;
+    font-display: fallback;
+}
+
+body, html
+{
+	font-family: iransansx  !important;
+    font-feature-settings: "ss02";
+    font-weight: 400;
+    font-size: 14px;
+    background: #EAF0E2;
+    line-height: 0;
+	direction: rtl;
+}
+
+@supports (font-variation-settings: normal) {
+    body {
+     font-family: 'IRANSansXV';
+    }
+}
+
+.vf-shar 
+{
+    font-variation-settings: "wght" 800, "dots" 4;
+}
+
+
+.ss02 {
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
+
+li, button
+{
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+div
+{
+    display: block;
+}
+
+article, aside, footer, header, nav, section
+{
+    display: block;
+}
+
+.header
+{
+    background: #EAF0E2;
+    position: relative;
+    animation-duration: .3s;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 7px 8px 0 rgb(0 0 0 / 4%);
+    backdrop-filter: blur(12px);
+}
+
+.header>.container{
+    position: relative;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    min-width: 1009px;
+    max-width: 1676px;
+}
+
+.navi
+{
+    position: relative;
+    left: 0;
+    top: 100%;
+    right: 0;
+    background: #EAF0E2;
+    box-shadow: 0 7px 8px 0 rgb(0 0 0 / 4%);
+    border-radius: 0px 0px 35px 35px;
+}
+
+.header_row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    padding: 24px 55px;
+}
+
+.header_right-side 
+{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.poone_logo 
+{
+    position: relative;
+    margin-left: 79px;
+    max-width: 130px;
+    max-height: 100%;
+}
+
+.search-box
+{
+    position: relative;
+    width: 50%;
+    /* min-width: 569px; */
+    min-height: 1px;
+}
+
+.header_search
+{
+    position: relative;
+    font-family: IRANSansX;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 12px 29px 12px 0;
+    background: #BADEBA;
+    border-radius: 8px;
+    border: none;
+}
+
+.header_left-side
+{
+    display: flex;
+    flex: 0 0 265px;
+    max-width: 260px;
+}
+
+.account-btn
+{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 13px 15px;
+    width: 182px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #5CAA50;
+    border: #5CAA50;
+    color: #EAF0E2;
+}
+
+.line
+{
+    width: 90%;
+    height: 0px;
+    margin-right: 67px;
+    background: rgba(17, 173, 93, 0.39);
+    border: 2px solid rgba(48, 137, 91, 0.39);
+    box-shadow: 0px 1px 8px rgba(161, 200, 174, 0.62);
+}
+
+.navi_row
+{
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 30px 67px 37px 67px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.new-list
+{
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    list-style: none;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: nowrap;
+}
+
+.new-list a
+{
+    color: #343434;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.phone-number
+{
+    margin-right: auto;
+    padding-left: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+} 
+
+main
+{
+    display: block;
+}
+
+.container-main
+{
+    max-width: 1280px;
+}
+
+.page
+{
+    margin-top: 20px;
+}
+
+.page-top
+{
+    display: block;
+    margin: 74px auto 146px auto;
+    justify-content: center;
+}
+
+.page-row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poo
+{
+    color: #5CAA50;
+    display: block;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 144px;
+    text-align: center;
+}
+
+.shoar
+{
+    color: #356847;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 23px;
+}
+
+.preview
+{
+    background: #fff;
+    display: block;
+    margin: 73px auto;
+    width: 700px;
+    height: 418px;
+    border-radius: 24px;
+}
+
+.about
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.right-side
+{
+    float: right;
+    width: 65%;
+}
+
+.about-title
+{
+    color: #356847;
+    margin: 50px 166px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.about-par
+{
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.benefits-container 
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 61px 47px 77px 47px;
+    background: #EAF0E2;
+    box-shadow: 3px 4px 7px rgba(190, 209, 165, 0.43), -3px -4px 12px rgba(255, 255, 255, 0.58);
+    border-radius: 50px;
+}
+
+.benefits-title
+{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 39px;
+    color: #356847;
+}
+
+.benefits-Explanation
+{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+.products-container
+{
+    width: 100%;
+    margin-top: 170px;
+}
+
+.title
+{
+    color: #356847;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.products-box
+{
+    display: flex;
+    width: 100%;
+    margin-top: 52px;
+    padding: 42px 17px;
+    justify-content: space-between;
+    background: #EAF0E2;
+    box-shadow: 3px 4px 7px rgba(190, 209, 165, 0.43), -3px -4px 12px rgba(255, 255, 255, 0.58);
+    border-radius: 22px;
+}
+
+.product-card
+{
+    width: 30%;
+    height: 462px;
+    background: #EAF0E2;
+    box-shadow: 3px 4px 7px rgba(190, 209, 165, 0.43), -3px -4px 12px rgba(255, 255, 255, 0.58);
+    border-radius: 18px;
+}
+
+.blog-container
+{
+    width: 100%;
+    margin-top: 173px;
+}
+
+.blog-box
+{
+    display: flex;
+    margin: 50px auto;
+    height: 638px;
+    background: #EAF0E2;
+    box-shadow: 3px 4px 7px rgba(190, 209, 165, 0.43), -3px -4px 12px rgba(255, 255, 255, 0.58);
+    border-radius: 24px;
+    justify-content: space-around;
+}
+
+.footer-container
+{
+    width: 100%;
+    margin-top: 180px;
+    background: #D3EACE;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.footer
+{
+    padding: 23px 36px;
+}
